@@ -45,13 +45,13 @@ img.ex-9-img:hover{
 }
 .ex-10-icon{
     transform: rotate(0deg);
-    animation: rotating 1s infinite;
+    animation: rotating 2s infinite;
     animation-direction: reverse;
     animation-timing-function: linear;
 }
 .ex-11-icon{
     transform: rotate(0deg);
-    animation: circle-path 1s infinite;
+    animation: circle-path 2s infinite;
     animation-timing-function: linear;
     animation-play-state: paused;
     animation-fill-mode: backwards;
@@ -59,6 +59,7 @@ img.ex-9-img:hover{
 }
 .ex-11-icon:hover{
     animation-play-state: running;
+
 
 }
 
@@ -76,5 +77,5 @@ img.ex-9-img:hover{
     25% {transform: rotate(90deg);}
     50% {transform: rotate(180deg);}
     75% {transform: rotate(270deg);}
-    100% {transform: rotate(360deg);}
+    80% {transform: rotate(0deg);}
 }
