@@ -59,6 +59,21 @@ img.ex-9-img:hover{
 .ex-12-button:hover .ex-12-bottom-white{
     animation: ex-12-path-2 2s linear;
 }
+.ex-12-button:hover{
+    color: #23527c;
+    text-decoration: underline;
+}
+.ex-13-button:hover{
+    color: #23527c;
+    text-decoration: underline;
+}
+
+.ex-13-button:hover .ex-13-top-white{
+    animation: ex-13-path 2s linear;
+}
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: ex-13-path-2 2s linear;
+}
 
 /* animations frames */
 
@@ -84,3 +99,18 @@ img.ex-9-img:hover{
     0% {right: 20%;}
     50% {right: 70%;}
 }
+@keyframes ex-13-path{
+    0% {left: 10%;}
+    20% {left: 80%; top:-10px}
+    40% {left: 80%;top: 55px;}
+    60% {left: -10%;top: 55px;}
+    80% {left: -10%;top: -10px;}
+}
+@keyframes ex-13-path-2{
+    0% {right: 10%;}
+    20% {right: 80%; bottom:-10px}
+    40% {right: 80%;bottom: 55px;}
+    60% {right: -10%;bottom: 55px;}
+    80% {right: -10%;bottom: -10px;}
+}
+
